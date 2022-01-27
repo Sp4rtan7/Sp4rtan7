@@ -9,7 +9,7 @@ import random
 
 colorama.init()
 os = os.system
-os('cls')
+os('clear')
 def capture(start, end, str):
     try:
         string = str.split(start)
